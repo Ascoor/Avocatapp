@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="ar">
     <head>
         <title>@yield('title')</title>
 
