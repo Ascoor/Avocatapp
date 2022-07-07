@@ -29,55 +29,55 @@
                         <div class="row">
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">First Name <span class="text-danger">*</span></label>
+                                <label for="fullname">الإسم الأول <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="f_name" name="f_name">
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Middle Name <span class="text-danger">*</span></label>
+                                <label for="fullname">إسم الأب <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="m_name" name="m_name">
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Last Name <span class="text-danger">*</span></label>
+                                <label for="fullname">اللقب <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="l_name" name="l_name">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Gender <span class="text-danger">*</span></label><br>
+                                <label for="fullname">الجنس <span class="text-danger">*</span></label><br>
 
-                                <input type="radio" name="gender" id="genderM" value="Male" checked="" required/> &nbsp;&nbsp;Male:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <input type="radio" name="gender" id="genderF" value="Female"/>&nbsp;&nbsp;Female
+                                <input type="radio" name="gender" id="genderM" value="Male" checked="" required/> &nbsp;&nbsp;رجل:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="gender" id="genderF" value="Female"/>&nbsp;&nbsp;أمرأة
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Email ID</label>
+                                <label for="fullname">البريد الإلكتروني</label>
                                 <input type="text" placeholder="" class="form-control" id="email" name="email">
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Mobile No. <span class="text-danger">*</span></label>
-                                <input type="text" placeholder="" class="form-control" id="mobile" maxlength="10"
+                                <label for="fullname">رقم الموبيل <span class="text-danger">*</span></label>
+                                <input type="text" placeholder="" class="form-control" id="mobile" maxlength="11"
                                        name="mobile">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-3 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Alternate No.</label>
+                                <label for="fullname">رقم قومي</label>
                                 <input type="text" placeholder="" class="form-control" id="alternate_no"
-                                       name="alternate_no" maxlength="10">
+                                       name="alternate_no" maxlength="14">
                             </div>
                             <div class="col-md-9 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Address <span class="text-danger">*</span></label>
+                                <label for="fullname">العنوان <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="address" name="address">
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">Country <span class="text-danger">*</span></label>
+                                <label for="fullname">الدولة <span class="text-danger">*</span></label>
                                 <select class="form-control select-change country-select2"
                                         name="country" id="country"
                                         data-url="{{ route('get.country') }}"
@@ -89,7 +89,7 @@
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">State <span class="text-danger">*</span></label>
+                                <label for="fullname">المحافظة <span class="text-danger">*</span></label>
                                 <select id="state" name="state"
 
                                         data-url="{{ route('get.state') }}"
@@ -102,7 +102,7 @@
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">City <span class="text-danger">*</span></label>
+                                <label for="fullname">المدينة أو المركز <span class="text-danger">*</span></label>
                                 <select id="city_id" name="city_id"
                                         data-url="{{ route('get.city') }}"
                                         data-target="#state"
