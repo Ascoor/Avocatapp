@@ -7,7 +7,7 @@
             <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                     <div class="x_title">
-                        <h2 style="float: none;">Thank you for purchase</h2>
+                        <h2 style="float: none;">شكراً لإستخدام نظام أفوكات</h2>
 
                         <div class="clearfix"></div>
                     </div>
@@ -15,8 +15,8 @@
                         <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/login') }}">
                             {{ csrf_field() }}
 
-                            <h2> Welcome to setup wizard </h2>
-                            <p class="text-left">Thanks you for purchasing LawOffice,LawOffice System Is A Web Based Application For Advocates And Law Firm To Maintain Their Office. This Software Is Very Easy To Operate And Light On System Tool To Maintain Information About Clients, Cases, Hearings Etc.</p>
+                            <h2> مرحباً بك في صفحةالتنصيب</h2>
+                            <p class="text-right">نظام أفوكات هو نظام متكامل بل ومبدع  في إدارة شئون القضايا والخدمات المقدمه لعملائك فمع كثرة الأعباء والإجراءات  التي تتلبهابيعةعمل المحامي تحتا إلى ماعد ذكي يتيع الماعدة الجديه والتنبية بكافة الإجراءات  والجلسات بل والتذكير بمواعيد العون بل والمذكرات بخلاف الجانب المالي الذي يوفر فكر جديدفي طريقة  تحصيل الأعاب تاعد على تنظيموترشيد النفقات ومعرفة حسابات كل عميل والتنبيه بالمطالبة تعدكم بتجربة ممتعة يمكن الإتفادة منها بشكل حقيقي </p>
                             <div>
                                 <a href="{{route('check.requirements')}}" class="btn btn-default pull-right">
                                     Next
@@ -31,8 +31,10 @@
                                 <br/>
 
                                 <div>
-
-                                    <p>©2019 All Rights Reserved. LawOffice</p>
+                <center>
+                  <h1><i class="fa fa-gavel type=submit"></i>A V O C A T</h1>
+                  <p>©2022 جميع الحقوق محفوظة لدي مكتب أفوكات للمحاماة</p>
+                </center>
                                 </div>
                             </div>
                         </form>
