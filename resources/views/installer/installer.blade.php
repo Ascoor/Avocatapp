@@ -12,7 +12,7 @@
                 <div class="col-md-12 col-sm-12 ">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2 style="float: none;">System Information </h2>
+                            <h2 style="float: none;">معلومات النظام </h2>
                             <div class="clearfix"></div>
                         </div>
                         <div class="x_content">
@@ -22,9 +22,9 @@
                                     {{ session('status') }}
                                 </div>
                             @endif
-                            <span class="section pull-left">Application Information</span>
+                            <span class="section pull-left">معلومات البرنامج</span>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">App Name
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">إسم البرنامج
                                     <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -32,7 +32,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="app_url">App URL <span
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="app_url">عنوان الموقع <span
                                             class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -40,7 +40,7 @@
                                            class="form-control">
                                 </div>
                             </div>
-                            <span class="section pull-left">Database Information</span>
+                            <span class="section pull-left">معلومات قاعدة البيانات</span>
                             <!-- <div class="item form-group">
                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Upload SQL File <span class="required">*</span>
                                </label>
@@ -50,8 +50,7 @@
                                </div>
                                 -->
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_host">Database
-                                    Hostname <span class="required">*</span>
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_host">إسم الخادم المحلي <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="text" id="db_host" name="db_host" required="required"
@@ -59,7 +58,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_port">Database Port
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_port">مفذ قاعدة البيانات
                                     <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -68,8 +67,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_database">Database
-                                    Name <span class="required">*</span>
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_database">إسم قاعدة البيانات <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="text" id="db_database" name="db_database" required="required"
@@ -77,8 +75,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_username">Database
-                                    Username <span class="required">*</span>
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_username">إسم المستخدم  بقاعدة البيانات<span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="text" id="db_username" name="db_username" required="required"
@@ -86,16 +83,15 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_password">Database
-                                    Password <span class="required">*</span>
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="db_password">كلمة مرور قاعدة البيانات <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="text" id="db_password" name="db_password" class="form-control">
                                 </div>
                             </div>
-                            <span class="section pull-left">Admin Information</span>
+                            <span class="section pull-left">بيانات المسؤل</span>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_name">Name <span
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_name">الإسم <span
                                             class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -104,7 +100,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_email">Email <span
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_email">الإميل <span
                                             class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -113,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_pwd">Password
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_pwd">كلمة المرور
                                     <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
@@ -122,8 +118,7 @@
                                 </div>
                             </div>
                             <div class="item form-group">
-                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_cpwd">Confirm
-                                    Password <span class="required">*</span>
+                                <label class="col-form-label col-md-3 col-sm-3 label-align" for="user_cpwd">أعد كتابة كلمة المرور <span class="required">*</span>
                                 </label>
                                 <div class="col-md-6 col-sm-6 ">
                                     <input type="password" id="user_cpwd" name="user_cpwd" required="required"
@@ -132,7 +127,7 @@
                             </div>
                             <div>
                                 <button type="submit" class="btn btn-default pull-right" id="show_loader">
-                                    Run Installer
+                                  أبدأ التصيب
                                 </button>
                             </div>
                             <div class="clearfix"></div>
@@ -147,7 +142,7 @@
                   <h1><i class="fa fa-gavel type=submit"></i>A V O C A T</h1>
                   <p>©2022 جميع الحقوق محفوظة لدي مكتب أفوكات للمحاماة</p>
                 </center>
-                            </div>
+              </div>
                         </div>
                     </div>
                 </div>
