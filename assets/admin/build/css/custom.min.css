@@ -605,7 +605,7 @@ body .container.body .right_col {
 body {
     color: #73879C;
     background: #2A3F54;
-    font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 13px;
     font-weight: 400;
     line-height: 1.471
@@ -2179,7 +2179,7 @@ h4.graph_title {
     width: 26px;
     opacity: .99;
     display: inline-block;
-    font-family: FontAwesome;
+    font-family: 'Cairo', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -2925,7 +2925,7 @@ span.tag {
     margin-left: 5px;
     font-weight: 500;
     margin-bottom: 5px;
-    font-family: helvetica
+    font-family: 'Cairo', sans-serif;
 }
 
 span.tag a {
@@ -2941,7 +2941,7 @@ span.tag a {
 .tagsinput input {
     width: 80px;
     margin: 0;
-    font-family: helvetica;
+    font-family: 'Cairo', sans-serif;
     font-size: 13px;
     border: 1px solid transparent;
     padding: 3px;
@@ -3722,7 +3722,7 @@ ul.project_files li a i {
 }
 
 .view p {
-    font-family: Georgia, serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 12px;
     color: #fff;
     padding: 10px 20px 20px;
@@ -3919,7 +3919,7 @@ ul.project_files li a i {
     color: #666;
     background: rgba(243, 242, 243, .8);
     border: 2px solid rgba(195, 194, 196, .8);
-    font-family: sans-serif;
+    font-family: 'Cairo', sans-serif;
     font-size: 12px;
     text-align: center
 }
@@ -4007,7 +4007,8 @@ ul.project_files li a i {
 }
 
 .login {
-    background: #F7F7F7
+   
+    background:linear-gradient(#041329, #304666), #0e2e5a;
 }
 
 .login .fa-paw {

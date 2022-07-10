@@ -17,6 +17,10 @@
     <link href="{{asset('assets/admin/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
     <!-- Animate.css -->
     <link href="{{asset('assets/admin/vendors/animate.css/animate.min.css') }}" rel="stylesheet">
+    <!----font Ar------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap" rel="stylesheet">
 
     <!-- Custom Theme Style -->
     <link href="{{asset('assets/admin/build/css/custom.min.css') }}" rel="stylesheet">
@@ -36,7 +40,7 @@
 
         <div class="animate form login_form">
             <div class="text-center">
-                <img src="{{ asset('public/upload/logo.png') }}" style="">
+                <img src="{{ asset('assets/logo.png') }}" style="">
             </div>
             @yield('content')
         </div>
