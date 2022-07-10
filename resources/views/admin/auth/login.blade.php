@@ -20,6 +20,9 @@
   <link href="{{URL::asset('assets/admin/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
   <!-- Animate.css -->
   <link href="{{URL::asset('assets/admin/vendors/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@500;600&display=swap" rel="stylesheet">
 
   <!-- Custom Theme Style -->
   <link href="{{URL::asset('assets/admin/build/css/custom.min.css') }}" rel="stylesheet">
@@ -44,7 +47,7 @@
     right:0;
     width:40%;
     height: calc(100%);
-    background:white;
+    background:#ffffff;
     display: flex;
     align-items: center;
     color:#2d4262;
@@ -54,14 +57,14 @@
     left:0;
     width:60%;
     height: calc(100%);
-    background:linear-gradient(#041329, #304666), #0e2e5a;
+    background:linear-gradient(#041353, #04114d), #04176d;
 
     display: flex;
     align-items: center;
     }
     #login-right .card{
     margin: auto;
-    background:#b8bddc;
+    background:#b1b7d4;
 
     }
     .fa-gavel:before{
@@ -73,7 +76,7 @@
     margin: auto;
     font-size: 8rem;
     padding: 0.0em 0.8em;
-    color: #000000b3;
+    color: #ffffffb3;
     }
     </style>
 </head>
