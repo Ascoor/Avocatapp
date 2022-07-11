@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>System Installation | @yield('title')</title>
+    <title>Avocat system setup |تنصيب نظام أفوكات @yield('title')</title>
     <!-- Bootstrap -->
     <link href="{{asset('assets/admin/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
     <!-- Font Awesome -->

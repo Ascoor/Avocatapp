@@ -4035,7 +4035,7 @@ a.hiddenanchor {
 
 .login_form,
 .registration_form {
-    position: absolute;
+    position: static;
     top: 0;
     width: 100%
 }
