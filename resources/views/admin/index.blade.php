@@ -25,8 +25,7 @@
                             <div class="icon"><i class="fa fa-users"></i>
                             </div>
                             <div class="count">{{ $client ?? '' }}</div>
-                            <h3>إجمالى الموكلين</h3>
-                            <p>الموكلين.</p>
+                            <h4>إجمالى الموكلين</h4>
                         </div>
                     </div>
                 </a>
@@ -36,9 +35,8 @@
                             <div class="icon"><i class="fa fa-gavel"></i>
                             </div>
                             <div class="count">{{ $case_total ?? '' }}</div>
-                            <h3>إجمالى القضايا</h3>
-                            <p>القضايا.</p>
-                        </div>
+                            <h4> القضايا المتداولة</h4>
+                                         </div>
                     </div>
                 </a>
                 <a href="{{ url('admin/case-important') }}">
@@ -47,9 +45,8 @@
                             <div class="icon"><i class="fa fa-star"></i>
                             </div>
                             <div class="count">{{ $important_case ?? '' }}</div>
-                            <h3>إجمالى القضايا الهامة</h3>
-                            <p>القضايا الهامة.</p>
-                            
+                            <h4>إجمالى القضايا الهامة</h4>
+                          
                         </div>
                     </div>
                 </a>
@@ -59,8 +56,7 @@
                             <div class="icon"><i class="fa fa-file-archive-o"></i>
                             </div>
                             <div class="count">{{$archived_total}}</div>
-                            <h3>إجمالى القضايا بالحفظ</h3>
-                            <p>حقظ القضايا.</p>
+                            <h4> القضايا المنتهية</h4>
                         </div>
                     </div>
                 </a>

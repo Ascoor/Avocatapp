@@ -57,7 +57,8 @@
     left:0;
     width:60%;
     height: calc(100%);
-    background:linear-gradient(#041353, #04114d), #04176d;
+
+    background:linear-gradient(#041329, #304666), #0e2e5a;
 
     display: flex;
     align-items: center;

@@ -2179,7 +2179,7 @@ h4.graph_title {
     width: 26px;
     opacity: .99;
     display: inline-block;
-    font-family: 'Cairo', sans-serif;
+    font-family: FontAwesome;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
