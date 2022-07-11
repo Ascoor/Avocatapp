@@ -7,7 +7,7 @@
             <div class="col-md-12 col-sm-12 ">
                 <div class="x_panel">
                     <div class="x_title">
-                        <h2 style="float: none;">شكراً لإستخدام نظام أفوكات</h2>
+                        <h2 style="float: none;">نظام إدارة مكتب محاماة</h2>
 
                         <div class="clearfix"></div>
                     </div>

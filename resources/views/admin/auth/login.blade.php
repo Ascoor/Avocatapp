@@ -88,7 +88,7 @@
 
     <div id="login-left">
   <div class="logo">
-    <img src="/avocat55/assets/logo.png"></div>
+    <img src="assets/logo.png"></div>
     </div>
     <div id="login-right">
       <div class="card col-md-8">
