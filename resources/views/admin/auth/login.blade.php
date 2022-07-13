@@ -95,7 +95,7 @@
       <div class="card col-md-8">
         <div class="card-body ">
           <div class="logo">
-            <center> <img src="/avocat55/assets/vvv.png">
+            <center> <img src="assets/vvv.png">
           </div>
 
           <h1 class=" text-center"><b>أفوكات</b></h1>
