@@ -3,7 +3,7 @@
 @section('content')
     <div class="">
         @component('component.heading' , [
-       'page_title' => 'Client',
+       'page_title' => 'الموكلين',
        'action' => route('clients.create') ,
        'text' => 'إضافة موكل',
        'permission' => $adminHasPermition->can(['client_add'])
@@ -25,7 +25,7 @@
                                 <th width="5%">رقم الموبيل</th>
                                 <th width="5%" data-orderable="false">القضية</th>
                                 <th width="5%" data-orderable="false">الحالة</th>
-                                <th width="5%" data-orderable="false" class="text-center">Action</th>
+                                <th width="5%" data-orderable="false" class="text-center">التفاصيل</th>
                             </tr>
                             </thead>
                         </table>

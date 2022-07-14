@@ -17,14 +17,14 @@
             @endif
 
             @if(isset($view))
-                <li><a href="{{ $view ?? 'javascrip:void(0)' }}"><i class="fa fa-eye"></i>&nbsp;&nbsp;View</a></li>
+                <li><a href="{{ $view ?? 'javascrip:void(0)' }}"><i class="fa fa-eye"></i>&nbsp;&nbsp;معاينة</a></li>
             @endif
 
 
 
             @if(isset($edit))
                 <li class="{{ isset($edit_permission) &&  $edit_permission=="1" ? '':'hidden' }}"><a
-                        href="{{ $edit ?? 'javascrip:void(0)' }}"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a></li>
+                        href="{{ $edit ?? 'javascrip:void(0)' }}"><i class="fa fa-edit"></i>&nbsp;&nbsp;تحرير</a></li>
             @endif
 
             @if(isset($download))
@@ -118,7 +118,7 @@
                 <li class="{{ isset($delete_permission) &&  $delete_permission=="1" ? '':'hidden' }}"><a
                         class="delete-confrim "
                         data-id={{ $delete->get('id') }}  href="{{ $delete->get('action' , 'javaqscrip:void(0)') }}"><i
-                            class="fa fa-trash "></i>&nbsp;&nbsp;Delete</a>
+                            class="fa fa-trash "></i>&nbsp;&nbsp;حذف</a>
                 </li>
                 @endif
 
