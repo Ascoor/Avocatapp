@@ -14,10 +14,10 @@
                     </div>
                     <div class="x_content">
                         <!-- <h1>Advocate Diary</h1> -->
-                        <h2> System install successfully. </h2>
-                        <p class="text-left">Now your system is install successfully on your server.now click on below login button with your credentials</p>
+                        <h2>يمكنك الأن البدأ في العمل </h2>
+                        <p class="text-right">تم تحميل النظام على السيرفر الخاص بك تسطتيع تسجيل الدخول وبدأ  العمل الأن</p>
                         <div>
-                            <a href="{{url('/')}}" class="btn btn-default pull-right">Login Now</a>
+                            <a href="{{url('/')}}" class="btn btn-default pull-left">تسجيل الدخول</a>
                         </div>
 
                         <div class="clearfix"></div>
@@ -27,10 +27,10 @@
                             <div class="clearfix"></div>
                             <br/>
 
-                            <div>
-
-                                <p>©2019 All Rights Reserved. LawOffice</p>
-                            </div>
+                            <center>
+                  <h1><i class="fa fa-gavel type=submit"></i>A V O C A T</h1>
+                  <p>©2022 جميع الحقوق محفوظة لدي مكتب أفوكات للمحاماة</p>
+                </center>
                         </div>
                         </form>
                     </div>
