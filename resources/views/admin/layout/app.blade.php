@@ -68,7 +68,7 @@
                     </div>
                     <div class="profile_info">
                         <h2>مرحبا بك سيادة المستشار</h2>
-                        <h3> {{Auth::guard('admin')->user()->first_name.' '.Auth::guard('admin')->user()->last_name}}</h3>
+                        <h2> {{Auth::guard('admin')->user()->first_name.' '.Auth::guard('admin')->user()->last_name}}</h2>
                     </div>
                 </div>
                 <!-- /menu profile quick info -->

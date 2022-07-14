@@ -5,7 +5,7 @@
         @component('component.heading' , [
        'page_title' => 'Client',
        'action' => route('clients.create') ,
-       'text' => 'Add Client',
+       'text' => 'إضافة موكل',
        'permission' => $adminHasPermition->can(['client_add'])
         ])
         @endcomponent
@@ -20,11 +20,11 @@
                         <table id="clientDataTable" class="table" data-url="{{ route('clients.list') }}">
                             <thead>
                             <tr>
-                                <th width="5%">No</th>
-                                <th>Client Name</th>
-                                <th width="5%">Mobile</th>
-                                <th width="5%" data-orderable="false">Case</th>
-                                <th width="5%" data-orderable="false">Status</th>
+                                <th width="5%">رقم</th>
+                                <th>إسم الموكل</th>
+                                <th width="5%">رقم الموبيل</th>
+                                <th width="5%" data-orderable="false">القضية</th>
+                                <th width="5%" data-orderable="false">الحالة</th>
                                 <th width="5%" data-orderable="false" class="text-center">Action</th>
                             </tr>
                             </thead>

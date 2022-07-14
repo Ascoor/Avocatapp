@@ -47,7 +47,7 @@
     right:0;
     width:40%;
     height: calc(100%);
-    background:linear-gradient(#041329, #304666), #0e2e5a;
+    background:linear-gradient(#041329, #0c2244, #08224b);
     display: flex;
     align-items: center;
     color:#2d4262;
@@ -58,14 +58,14 @@
     width:60%;
     height: calc(100%);
 
-    background:linear-gradient(#041329, #304666), #0e2e5a;
+    background:linear-gradient(#041329, #0c2244, #08224b);
 
     display: flex;
     align-items: center;
     }
     #login-right .card{
     margin: auto;
-    background:#b1b7d4;
+    background:#c5cadf;
 
     }
     .fa-gavel:before{
