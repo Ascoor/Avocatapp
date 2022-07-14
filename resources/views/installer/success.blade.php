@@ -17,7 +17,7 @@
                         <h2>يمكنك الأن البدأ في العمل </h2>
                         <p class="text-right">تم تحميل النظام على السيرفر الخاص بك تسطتيع تسجيل الدخول وبدأ  العمل الأن</p>
                         <div>
-                            <a href="{{url('/')}}" class="btn btn-default pull-left">تسجيل الدخول</a>
+                            <a href="{{url('/')}}" class="btn btn-danger pull-left">تسجيل الدخول</a>
                         </div>
 
                         <div class="clearfix"></div>

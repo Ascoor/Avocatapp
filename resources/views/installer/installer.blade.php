@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button type="submit" class="btn btn-default pull-right" id="show_loader">
+                                <button type="submit" class="btn btn-danger pull-left   " id="show_loader">
                                   أبدأ التصيب
                                 </button>
                             </div>

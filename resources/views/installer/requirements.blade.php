@@ -350,8 +350,8 @@ if (function_exists('apache_get_modules')) {
                         </ul>
                     </div>
                     <div>
-                        <a href="{{route('get.dBinfo')}}" class="btn btn-default pull-right">
-                            Next
+                        <a href="{{route('get.dBinfo')}}" class="btn btn-danger pull-left">
+                            التالي
                         </a>
                     </div>
 
