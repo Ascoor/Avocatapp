@@ -50,8 +50,8 @@
                                 <label for="mobile">Mobile No. <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="mobile" name="mobile"
                                        data-rule-required="true" data-rule-number="true"
-                                       data-msg-required="Mobile no is required" data-rule-maxlength="10"
-                                       value="{{ $client->mobile ?? ''}}" maxlength="10">
+                                       data-msg-required="Mobile no is required" data-rule-maxlength="11"
+                                       value="{{ $client->mobile ?? ''}}" maxlength="11">
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">

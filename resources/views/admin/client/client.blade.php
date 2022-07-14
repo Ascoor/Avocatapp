@@ -21,8 +21,8 @@
                             <thead>
                             <tr>
                                 <th width="5%">رقم</th>
-                                <th>إسم الموكل</th>
-                                <th width="5%">رقم الموبيل</th>
+                                <th  width="25%">إسم الموكل</th>
+                                <th width="10%">رقم الموبيل</th>
                                 <th width="5%" data-orderable="false">القضية</th>
                                 <th width="5%" data-orderable="false">الحالة</th>
                                 <th width="5%" data-orderable="false" class="text-center">التفاصيل</th>

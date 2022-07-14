@@ -51,20 +51,20 @@ var FormControlsClient = {
                 },
                 mobile: {
                     required: "Please enter mobile.",
-                    minlength: "Mobile must be 10 digit.",
-                    maxlength: "Mobile must be 10 digit.",
+                    minlength: "Mobile must be 11 digit.",
+                    maxlength: "Mobile must be 11 digit.",
                     number: "please enter digit 0-9.",
                 },
                 alternate_no: {
                     required: "Please enter alternate no.",
-                    minlength: "Mobile must be 10 digit.",
-                    maxlength: "Mobile must be 10 digit.",
+                    minlength: "Mobile must be 11 digit.",
+                    maxlength: "Mobile must be 11 digit.",
                     number: "please enter digit 0-9.",
                 },
                 reference_mobile: {
                     required: "Please enter Reference mobile no.",
-                    minlength: "Mobile must be 10 digit.",
-                    maxlength: "Mobile must be 10 digit.",
+                    minlength: "Mobile must be 11 digit.",
+                    maxlength: "Mobile must be 11 digit.",
                     number: "Please enter digit 0-9.",
                 }
 
