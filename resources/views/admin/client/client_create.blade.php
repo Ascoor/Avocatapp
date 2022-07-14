@@ -2,7 +2,7 @@
 @section('title','Client Create')
 @section('content')
     @component('component.heading' , [
-    'page_title' => 'Add Client',
+    'page_title' => 'إضافة موكل',
     'action' => route('clients.index') ,
     'text' => 'Back'
      ])
