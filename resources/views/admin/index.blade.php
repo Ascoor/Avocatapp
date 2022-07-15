@@ -246,7 +246,7 @@
                                                 <p class="customers-tittle">إدارة المواعيد وتحديد الوقت والتاريخ .</p>
                                                 <div class="cst-btn">
                                                     <div class="top-btns" style="text-align: left;">
-                                                        <a class="btn btn-info"
+                                                        <a class="btn btn-danger"
                                                            href="{{url('admin/appointment/create')}}"> إضافة موعد </a>
                                                     </div>
                                                 </div>
