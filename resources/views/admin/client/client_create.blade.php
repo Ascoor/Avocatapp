@@ -2,7 +2,7 @@
 @section('title','Client Create')
 @section('content')
     @component('component.heading' , [
-    'page_title' => 'Add Client',
+    'page_title' => 'إضافة موكل',
     'action' => route('clients.index') ,
     'text' => 'Back'
      ])
@@ -65,7 +65,7 @@
 
                         <div class="row">
                             <div class="col-md-3 col-sm-12 col-xs-12 form-group">
-                                <label for="fullname">رقم قومي</label>
+                                <label for="fullname">رقم قومي<span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="alternate_no"
                                        name="alternate_no" maxlength="14">
                             </div>
@@ -83,7 +83,7 @@
                                         data-url="{{ route('get.country') }}"
                                         data-clear="#city_id,#state"
                                 >
-                                    <option value=""> Select Country</option>
+                                    <option value=""> إختر الدولة</option>
 
                                 </select>
                             </div>
@@ -186,9 +186,9 @@
                                                        data-rule-number="true" data-msg-number="please enter digit 0-9."
                                                        data-rule-minlength="10"
                                                        data-msg-minlength="mobile must be 10 digit."
-                                                       data-rule-maxlength="10"
+                                                       data-rule-maxlength="11"
                                                        data-msg-maxlength="mobile must be 10 digit."
-                                                       class="form-control" maxlength="10">
+                                                       class="form-control" maxlength="11">
                                             </div>
                                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                 <label for="fullname">Address <span class="text-danger">*</span></label>
@@ -249,9 +249,9 @@
                                                        data-rule-number="true" data-msg-number="please enter digit 0-9."
                                                        data-rule-minlength="10"
                                                        data-msg-minlength="mobile must be 10 digit."
-                                                       data-rule-maxlength="10"
+                                                       data-rule-maxlength="11"
                                                        data-msg-maxlength="mobile must be 10 digit."
-                                                       class="form-control" maxlength="10">
+                                                       class="form-control" maxlength="11">
                                             </div>
                                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                 <label for="fullname">Address <span class="text-danger">*</span></label>

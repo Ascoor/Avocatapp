@@ -13,37 +13,37 @@
 
             @if(isset($permission))
                 <li><a href="{{ $permission ?? 'javascrip:void(0)' }}"><i
-                            class="fa fa-key"></i>&nbsp;&nbsp;Permission</a></li>
+                            class="fa fa-key"></i>&nbsp;&nbsp;الصلاحيات</a></li>
             @endif
 
             @if(isset($view))
-                <li><a href="{{ $view ?? 'javascrip:void(0)' }}"><i class="fa fa-eye"></i>&nbsp;&nbsp;View</a></li>
+                <li><a href="{{ $view ?? 'javascrip:void(0)' }}"><i class="fa fa-eye"></i>&nbsp;&nbsp;معاينة</a></li>
             @endif
 
 
 
             @if(isset($edit))
                 <li class="{{ isset($edit_permission) &&  $edit_permission=="1" ? '':'hidden' }}"><a
-                        href="{{ $edit ?? 'javascrip:void(0)' }}"><i class="fa fa-edit"></i>&nbsp;&nbsp;Edit</a></li>
+                        href="{{ $edit ?? 'javascrip:void(0)' }}"><i class="fa fa-edit"></i>&nbsp;&nbsp;تحرير</a></li>
             @endif
 
             @if(isset($download))
-                <li class=""><a href="{{ $download ?? 'javascrip:void(0)' }}"><i class="fa fa-download"></i>&nbsp;&nbsp;Download</a>
+                <li class=""><a href="{{ $download ?? 'javascrip:void(0)' }}"><i class="fa fa-download"></i>&nbsp;&nbsp;تحميل</a>
                 </li>
             @endif
 
             @if(isset($restore))
-                <li class=""><a href="{{ $restore ?? 'javascrip:void(0)' }}"><i class="fa fa-undo"></i>&nbsp;&nbsp;Restore</a>
+                <li class=""><a href="{{ $restore ?? 'javascrip:void(0)' }}"><i class="fa fa-undo"></i>&nbsp;&nbsp;إستعادة</a>
                 </li>
             @endif
 
 
             @if (isset($print))
                 <li class="divider"></li>
-                <li><a target="_blank" href="{{ $print }}"><i class="fa fa-print"></i>&nbsp;&nbsp;Print</a></li>
+                <li><a target="_blank" href="{{ $print }}"><i class="fa fa-print"></i>&nbsp;&nbsp;طباعة</a></li>
             @endif
             @if (isset($email))
-                <li><a href="#"><i class="fa fa-envelope "></i>&nbsp;&nbsp;Email</a></li>
+                <li><a href="#"><i class="fa fa-envelope "></i>&nbsp;&nbsp;الإيميل</a></li>
                 <li class="divider"></li>
             @endif
 
@@ -72,7 +72,7 @@
                        data-id={{ $next_date->get('id') }}
                            href="{{ $next_date->get('action' , 'javaqscrip:void(0)') }}"
                        data-target-modal="{{ $next_date->get('target') }}"><i class="fa fa-calendar-plus-o"></i>&nbsp;&nbsp;
-                        Next Date</a></li>
+                       التاريخ القادم</a></li>
             @endif
 
 
@@ -85,7 +85,7 @@
                     @endphp
                     <a class="call-model"
 
-                       onClick='nextDateAdd({{$next}});'><i class="fa fa-calendar-plus-o"></i>&nbsp;&nbsp; Next Date</a>
+                       onClick='nextDateAdd({{$next}});'><i class="fa fa-calendar-plus-o"></i>&nbsp;&nbsp; التاريخ  القادم</a>
                 </li>
             @endif
 
@@ -99,8 +99,7 @@
                     @endphp
                     <a class="call-model"
 
-                       onClick='transfer_case({{$transfer_case}});'><i class="fa fa-gavel"></i>&nbsp;&nbsp; Case
-                        Transfer</a></li>
+                       onClick='transfer_case({{$transfer_case}});'><i class="fa fa-gavel"></i>&nbsp;&nbsp; تصدير  القضية</a></li>
             @endif
 
             <li>
@@ -111,14 +110,14 @@
                        data-id={{ $edit_modal->get('id') }}
                            data-url="{{ $edit_modal->get('action' , 'javaqscrip:void(0)') }}"
                        href="{{ $edit_modal->get('action' , 'javaqscrip:void(0)') }}">
-                        <i class="fa fa-edit"></i>&nbsp;<span class="">Edit</span>
+                        <i class="fa fa-edit"></i>&nbsp;<span class="">تحرير</span>
                     </a>
             @endif
             @if (isset($delete))
                 <li class="{{ isset($delete_permission) &&  $delete_permission=="1" ? '':'hidden' }}"><a
                         class="delete-confrim "
                         data-id={{ $delete->get('id') }}  href="{{ $delete->get('action' , 'javaqscrip:void(0)') }}"><i
-                            class="fa fa-trash "></i>&nbsp;&nbsp;Delete</a>
+                            class="fa fa-trash "></i>&nbsp;&nbsp;حذف</a>
                 </li>
                 @endif
 

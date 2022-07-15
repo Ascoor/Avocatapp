@@ -48,18 +48,18 @@
                                        data-rule-required="true"
                                        data-rule-number="true"
                                        data-msg-required="Mobile no is required"
-                                       data-rule-minlength="10"
-                                       data-rule-maxlength="10">
+                                       data-rule-minlength="11"
+                                       data-rule-maxlength="11">
                             </div>
 
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                 <label for="alternate_no">Alternate No<span class="text-danger"></span></label>
                                 <input type="text" placeholder="" class="form-control" id="alternate_no"
                                        name="alternate_no"
-                                       data-rule-required="false"
+                                       data-rule-required="true"
                                        data-rule-number="true"
-                                       data-rule-minlength="10"
-                                       data-rule-maxlength="10">
+                                       data-rule-minlength="14"
+                                       data-rule-maxlength="14">
                             </div>
 
                             <div class="col-md-12 col-sm-12 col-xs-12 form-group">

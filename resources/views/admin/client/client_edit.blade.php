@@ -59,14 +59,14 @@
                             <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                 <label for="fullname">Mobile No. <span class="text-danger">*</span></label>
                                 <input type="text" placeholder="" class="form-control" id="mobile" name="mobile"
-                                       value="{{ $client->mobile ?? ''}}" maxlength="10">
+                                       value="{{ $client->mobile ?? ''}}" maxlength="11">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-3 col-sm-12 col-xs-12 form-group">
                                 <label for="fullname">Alternate No.</label>
                                 <input type="text" value="{{ $client->alternate_no ?? ''}}" placeholder=""
-                                       class="form-control" id="alternate_no" name="alternate_no" maxlength="10">
+                                       class="form-control" id="alternate_no" name="alternate_no" maxlength="14">
                             </div>
                             <div class="col-md-9 col-sm-12 col-xs-12 form-group">
                                 <label for="fullname">Address <span class="text-danger">*</span></label>
@@ -203,12 +203,12 @@
                                                                data-msg-required="Please enter mobile number."
                                                                data-rule-number="true"
                                                                data-msg-number="please enter digit 0-9."
-                                                               data-rule-minlength="10"
-                                                               data-msg-minlength="mobile must be 10 digit."
-                                                               data-rule-maxlength="10"
-                                                               data-msg-maxlength="mobile must be 10 digit."
+                                                               data-rule-minlength="11"
+                                                               data-msg-minlength="mobile must be 11 digit."
+                                                               data-rule-maxlength="11"
+                                                               data-msg-maxlength="mobile must be 11 digit."
                                                                class="form-control" value="{{ $value->party_mobile }}"
-                                                               maxlength="10">
+                                                               maxlength="11">
                                                     </div>
                                                     <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                         <label for="fullname">Address <span class="text-danger">*</span></label>
@@ -261,11 +261,11 @@
                                                            data-msg-required="Please enter mobile number."
                                                            data-rule-number="true"
                                                            data-msg-number="please enter digit 0-9."
-                                                           data-rule-minlength="10"
-                                                           data-msg-minlength="mobile must be 10 digit."
-                                                           data-rule-maxlength="10"
-                                                           data-msg-maxlength="mobile must be 10 digit."
-                                                           class="form-control" maxlength="10">
+                                                           data-rule-minlength="11"
+                                                           data-msg-minlength="mobile must be 11 digit."
+                                                           data-rule-maxlength="11"
+                                                           data-msg-maxlength="mobile must be 11 digit."
+                                                           class="form-control" maxlength="11">
                                                 </div>
                                                 <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                     <label for="fullname">Address <span
@@ -336,12 +336,12 @@
                                                                data-msg-required="Please enter mobile number."
                                                                data-rule-number="true"
                                                                data-msg-number="please enter digit 0-9."
-                                                               data-rule-minlength="10"
+                                                               data-rule-minlength="11"
                                                                data-msg-minlength="mobile must be 10 digit."
-                                                               data-rule-maxlength="10"
-                                                               data-msg-maxlength="mobile must be 10 digit."
+                                                               data-rule-maxlength="11"
+                                                               data-msg-maxlength="mobile must be 11 digit."
                                                                class="form-control" value="{{ $value->party_mobile }}"
-                                                               maxlength="10">
+                                                               maxlength="11">
                                                     </div>
                                                     <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                         <label for="fullname">Address <span class="text-danger">*</span></label>
@@ -402,11 +402,11 @@
                                                            data-msg-required="Please enter mobile number."
                                                            data-rule-number="true"
                                                            data-msg-number="please enter digit 0-9."
-                                                           data-rule-minlength="10"
-                                                           data-msg-minlength="mobile must be 10 digit."
-                                                           data-rule-maxlength="10"
-                                                           data-msg-maxlength="mobile must be 10 digit."
-                                                           class="form-control" maxlength="10">
+                                                           data-rule-minlength="11"
+                                                           data-msg-minlength="mobile must be 11 digit."
+                                                           data-rule-maxlength="11"
+                                                           data-msg-maxlength="mobile must be 11 digit."
+                                                           class="form-control" maxlength="11">
                                                 </div>
                                                 <div class="col-md-4 col-sm-12 col-xs-12 form-group">
                                                     <label for="fullname">Address <span

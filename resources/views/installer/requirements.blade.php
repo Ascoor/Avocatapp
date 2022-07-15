@@ -350,8 +350,8 @@ if (function_exists('apache_get_modules')) {
                         </ul>
                     </div>
                     <div>
-                        <a href="{{route('get.dBinfo')}}" class="btn btn-default pull-right">
-                            Next
+                        <a href="{{route('get.dBinfo')}}" class="btn btn-danger pull-left">
+                            التالي
                         </a>
                     </div>
 
@@ -365,10 +365,11 @@ if (function_exists('apache_get_modules')) {
                         <div class="clearfix"></div>
                         <br/>
 
-                        <div>
-
-                            <p>©2019 All Rights Reserved. LawOffice</p>
-                        </div>
+                        <center>
+                  <h1><i class="fa fa-gave2 type=submit"></i>A V O C A T</h1>
+                  <p>©2022 جميع الحقوق محفوظة لدي مكتب أفوكات للمحاماة</p>
+                </center>
+              </div>
                     </div>
                 </div>
             </div>

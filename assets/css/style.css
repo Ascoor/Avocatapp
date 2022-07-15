@@ -96,15 +96,15 @@
     }
     
     .left_col {
-        background: linear-gradient(#283d5b, #0c1c33), #2c4161;
+        background:linear-gradient(#041329, #0c2244, #08224b);
     }
     
     .nav_title {
-        background: linear-gradient(#07172e, #283d5b), #112036;
+        background:#041329
     }
     
     .nav_menu {
-        background: linear-gradient(#041329, #304666), #0e2e5a;
+        background:#041329
     }
     
     .nav.side-menu>li.active,

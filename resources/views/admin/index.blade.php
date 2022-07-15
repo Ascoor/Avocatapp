@@ -180,7 +180,7 @@
                                                 <p class="customers-tittle">إدارة ملف القضية وتحدبد تواريخ الجلسات ومتابعة اجراءاتها واعداد التقارير عنها .</p>
                                                 <div class="cst-btn">
                                                     <div class="top-btns" style="text-align: left;">
-                                                        <a class="btn btn-info"
+                                                        <a class="btn btn-danger"
                                                            href="{{url('admin/case-running/create')}}"> إضافة قضية جديدة </a>
                                                     </div>
                                                 </div>
