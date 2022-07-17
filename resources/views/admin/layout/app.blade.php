@@ -122,7 +122,7 @@
 <script src="{{ asset('assets/admin/js/jquery.validate.min.js') }}"></script>
 
 <script src="{{asset('assets/admin/vendors/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 <script src="{{ asset('assets/js/script.js') }}"></script>
 <script>
 
