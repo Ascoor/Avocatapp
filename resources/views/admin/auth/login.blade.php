@@ -32,9 +32,13 @@
     ]); ?>
 </script>
   <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body{
     width: 100%;
-    height: calc(100%);
+    height: 100%;
     /*background: #0413298*/
     }
     main#main{
@@ -50,13 +54,13 @@
     background:linear-gradient(#041329, #0c2244, #08224b);
     display: flex;
     align-items: center;
-    color:#2d4262;
+    color:#ffffff;
     }
     #login-left{
     position: absolute;
     left:0;
     width:60%;
-    height: calc(100%);
+    height: 100vh;
 
     background:linear-gradient(#041329, #0c2244, #08224b);
 
@@ -65,27 +69,31 @@
     }
     #login-right .card{
     margin: auto;
-    background:#c5cadf;
+    background: rgba(255, 255, 255, .1);
+border-radius: 10%
 
     }
     .fa-gavel:before{
     content: "\f0e3";
     color: #ec1c23;
-    
+
     }
     .logo {
     margin: auto;
     font-size: 8rem;
     padding: 0.0em 0.8em;
     color: #ffffffb3;
+
+
     }
+
     </style>
 </head>
 
-<body>
 
 
-  <main id="main" class="login">
+
+  <body>
 
     <div id="login-left">
   <div class="logo">
@@ -145,17 +153,18 @@
                 <div class="clearfix"></div>
 
               </div>
-
-              <div>
-                <center>
+              <center>
                   <h1><i class="fa fa-gavel type=submit"></i>A V O C A T</h1>
                   <p>©2022 جميع الحقوق محفوظة لدي مكتب أفوكات للمحاماة</p>
                 </center>
+
               </div>
             </div>
         </div>
         </form>
         </section>
+
+
       </div>
     </div>
     </div>
@@ -176,6 +185,6 @@
 
 
 
-</body>
+  </body>
 
 </html>
