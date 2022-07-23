@@ -12,6 +12,17 @@
 
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link href="{{URL::asset('assets/admin/vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="{{URL::asset('assets/admin/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+  <!-- NProgress -->
+  <link href="{{URL::asset('assets/admin/vendors/nprogress/nprogress.css') }}" rel="stylesheet">
+  <!-- Animate.css -->
+  <link href="{{URL::asset('assets/admin/vendors/animate.css/animate.min.css') }}" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Cairo:wght@500;600&display=swap" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -19,6 +30,64 @@
             'csrfToken' => csrf_token(),
         ]); ?>
     </script>
+    
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+    width: 100%;
+    height: 100%;
+    /*background: #0413298*/
+    }
+    main#main{
+    width:100%;
+    height: calc(100%);
+    background:white;
+    }
+    #login-right{
+    position: absolute;
+    right:0;
+    width:40%;
+    height: calc(100%);
+    background:linear-gradient(#041329, #0c2244, #08224b);
+    display: flex;
+    align-items: center;
+    color:#ffffff;
+    }
+    #login-left{
+    position: absolute;
+    left:0;
+    width:60%;
+    height: 100vh;
+
+    background:linear-gradient(#041329, #0c2244, #08224b);
+
+    display: flex;
+    align-items: center;
+    }
+    #login-right .card{
+    margin: auto;
+    background: rgba(255, 255, 255, .1);
+border-radius: 10%
+
+    }
+    .fa-gavel:before{
+    content: "\f0e3";
+    color: #ec1c23;
+
+    }
+    .logo {
+    margin: auto;
+    font-size: 8rem;
+    padding: 0.0em 0.8em;
+    color: #ffffffb3;
+
+
+    }
+
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-default navbar-static-top">
