@@ -27,7 +27,7 @@ Route::get('/clear-cache', function () {
     $exitCode = Artisan::call('config:clear');
     echo 'DONE'; //Return anything
 });
-
+Route::view('/civil', 'egcourt.civil');
 
 //---------------------------Country State City FIlter-----------------------//
 Route::get('/', 'AdminAuth\LoginController@showLoginForm')->name('login');
