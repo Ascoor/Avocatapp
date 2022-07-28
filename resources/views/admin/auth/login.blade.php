@@ -123,7 +123,7 @@ border-radius: 10%
             </center>
             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
               <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" autofocus
-                placeholder="الأميل">
+                placeholder="الإيميل">
 
               @if ($errors->has('email'))
               <span class="help-block text-left">

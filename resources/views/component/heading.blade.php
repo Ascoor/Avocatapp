@@ -9,7 +9,7 @@
             @if (isset($action) )
 
                 <a href="{{ $action }}"
-                   class="btn btn-success {{ isset($permission) &&  $permission=="1" ? '':'hidden' }}"><i
+                   class="btn btn-danger {{ isset($permission) &&  $permission=="1" ? '':'hidden' }}"><i
                         class="fa fa-plus"></i> {{ $text }}</a>
             @endif
 

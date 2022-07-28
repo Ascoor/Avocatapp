@@ -22,6 +22,7 @@
             @if($adminHasPermition->can(['appointment_list']) =="1")
                 <li><a href="{{ route('appointment.index') }}"><i class="fa fa-calendar-plus-o"></i> المواعيد</a>
                 </li>
+                <li><a><i class="fa fa-users"></i>محكمة النقض<span class="fa fa-chevron-down"></span></a>
 
             @endif
             @if(\Auth::guard('admin')->user()->user_type=="Admin")
