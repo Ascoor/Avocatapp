@@ -10,6 +10,7 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::view('/civil', 'egcourt.civil');
 
 Route::get('/','InstallerController@index');
 Route::get('/install','InstallerController@index');
