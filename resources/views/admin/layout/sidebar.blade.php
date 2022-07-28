@@ -23,6 +23,12 @@
                 <li><a href="{{ route('appointment.index') }}"><i class="fa fa-calendar-plus-o"></i> المواعيد</a>
                 </li>
                 <li><a><i class="fa fa-users"></i>محكمة النقض<span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                        <li><a href="{{ url('civil') }}"> أحكام النقض المدني</a></li>
+                        <li><a href="{{ route('role.index') }}">أحكام النقض الجنائي</a></li>
+
+                    </ul>
+                </li>
 
             @endif
             @if(\Auth::guard('admin')->user()->user_type=="Admin")
